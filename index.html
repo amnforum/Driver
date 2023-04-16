@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Driver Monitoring System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="fonts/flaticon-covid/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    
+    <header class="site-navbar light js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-6 col-xl-2">
+            <div class="mb-0 site-logo"><a href="index.html" class="mb-0"><p style="color: blueviolet;"> DRIVER MONITORING</p></a></div>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+
+              
+                      
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3 text-black"></span></a></div>
+
+        </div>
+      </div>
+
+    </header>
+
+    
+
+    <div class="hero-v1">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mr-auto text-center text-lg-left">
+            <span class="d-block subheading">AI-Powered Driver Monitoring</span>
+            <h1 class="heading mb-3">Create a Safer In-Cabin experience.</h1>
+            <p class="mb-5">Driver monitoring is essential for maintaining safe driving practices. It involves using technology to track a driver's behavior and identify any potentially dangerous patterns, such as speeding, aggressive driving, or distracted driving. This information can be used to provide feedback to the driver and improve their driving habits, ultimately reducing the risk of accidents on the road.</p>
+            <p class="mb-4"><button class="btn btn-primary" type="submit" onclick="UseAction()">Demo</button></p>
+
+            <script>function UseAction() {
+              var xhttp = new XMLHttpRequest();
+              xhttp.onreadystatechange = function() {
+                   if (this.readyState == 4 && this.status == 200) {
+                       alert(this.responseText);
+                   }
+              };
+              xhttp.open("GET", "http://127.0.0.1:5000", true);
+              // xhttp.setRequestHeader("Content-type", "application/json");
+              xhttp.send("Your JSON Data Here");
+            }
+            </script>
+
+
+
+          </div>
+          <div class="col-lg-6">
+            <figure class="illustration">
+              <img src="images/illustration.png" alt="Image" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-6"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MAIN -->
+    
+    <div class="site-section stats" style="background-color: grey;">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading">Road accidents Statistics in INDIA in last decade</h2>
+            <p>number of accidents due to negligence of driver </p>
+          </div>
+        </div>
+        <div class="row"> 
+          <div class="col-lg-4">
+            <div class="data">
+             
+              <strong class="d-block number">7 million</strong>
+              <span class="label">estimated road accident Cases per year </span>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="data">
+              
+              <strong class="d-block number">5 million</strong>
+              <span class="label">injured </span>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="data">
+              
+              <strong class="d-block number">1.3 million</strong>
+              <span class="label">killed</span>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+
+      <div class="label"><i><p style="text-align: center; color: black;">Human error is the cause of most car accidents. Our technology helps detect potentially dangerous behavior to help the driver reach their destination safely.</p></i></div>
+    </div>
+
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <figure class="img-play-vid">
+              <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
+              <div class="absolute-block d-flex">
+           
+                <a href="images/0.mp4" data-fancybox class="btn-play">
+                  <span class="icon-play"></span>
+                </a>
+              </div>
+            </figure>
+          </div>
+
+     
+
+          <div class="col-lg-5 ml-auto">
+            <h2 class="mb-4 section-heading">How our model is effecient in avoiding the accidents?</h2>
+            <p> Here are some short points on how AI can prevent accidents by driver monitoring:</p>
+            <ul class="list-check list-unstyled mb-5">
+              <li>AI can monitor a driver's behavior in real-time and detect signs of drowsiness, distraction, or impairment.</li>
+              <li>Track head pose, eyes and eye closure, gaze direction, and more to monitor the driver’s focus and attentiveness.</li>
+              <li>By analyzing data from sensors and cameras in a vehicle, AI can identify potential hazards and alert the driver to take action.</li>
+              <li>By providing feedback and coaching to drivers based on their behavior, AI can help improve their driving skills and reduce the risk of accidents.</li>
+            </ul>
+            <p><a href="#" class="btn btn-primary">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="site-section">
+      <div class="container" style="background-color: lightblue;  width: 100%; padding: 2% 10% 2% 10%;">
+        <div class="row mb-5">
+          <div class="col-lg-7 mx-auto text-center">
+            <h1 class="mb-4 section-heading" style="size:2 ;">Features</h1>
+            <p>of our AI-Enabled DMS System</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg">
+            <div class="post-entry">
+              <a href="#" class="thumb">
+                 
+                <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
+              </a>
+              
+              <h3><a href="#"><b>Driver Face tracking</b></a></h3>
+            </div>
+          </div>
+ 
+            <div class="col-lg">
+              <div class="post-entry">
+                <a href="#" class="thumb">
+                   
+                  <img src="images/fatigue detection.png" alt="Image" class="img-fluid">
+                </a>
+                
+                <h3><a href="#"><b>Sleep and Fatigue Detection</b></a></h3>
+      
+            </div>
+            </div>
+
+            <div class="col-lg">
+              <div class="post-entry">
+                <a href="#" class="thumb">
+                   
+                  <img src="images/SLEEP ALERT.png" alt="Image" class="img-fluid">
+                </a>
+                
+                <h3><a href="#"><b>Sleep Alert</b></a></h3>
+      
+            </div></div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg">
+                <div class="post-entry">
+                  <a href="#" class="thumb">
+                     
+                    <img src="images/emergency sos.png" alt="Image" class="img-fluid">
+                  </a>
+                  
+                  <h3><a href="#"><b>Emergency SOS system</b></a></h3>
+                </div>
+              </div>
+              
+          <div class="col-lg">
+            <div class="post-entry">
+              <a href="#" class="thumb">
+                 
+                <img src="images/hero_2.jpg" alt="Image" class="img-fluid">
+              </a>
+              
+              <h3><a href="#"><b> BlackBox</b></a></h3>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="post-entry">
+              <a href="#" class="thumb">
+              
+                <img src="images/defaulters.rj.22 (1).png" alt="Image" class="img-fluid">
+              </a>
+            
+              <h3><a href="#"><b> Efficient & Affordable</b></a></h3>
+            </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-7 mx-auto text-center">
+            <h2 class="mb-4 section-heading">Our Future Opportunities</h2>
+            <p>The scopes of the Driver Monitoring System</p>
+          </div>
+        </div>
+
+        <div class="row"><div style="width: 50%;"><ul><li>Driver emotion detection is a technology that uses artificial intelligence and machine learning algorithms to analyze a driver's facial expressions, voice, and other biometric data to detect emotions such as anger, fatigue, and distraction.</li>
+
+         <li> The system can then alert the driver or take other actions to prevent accidents caused by emotional distress.</li>
+          
+          <li> Driver emotion detection has the potential to improve road safety and reduce the number of accidents caused by emotional or distracted driving.</li></ul></div>
+          <div class="col-lg-4" style="width:50%;">
+            <div class="post-entry">
+              <a href="#" class="thumb">
+                 
+                <img src="images/face recognition (1).png" alt="Image" class="img-fluid">
+              </a>
+              
+              <h3><a href="#">Driver Emotion Detection</a></h3>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="row">
+          <div class="col-lg-4"  style="width:50%; margin:0 auto;">
+            <div class="post-entry">
+              <a href="#" class="thumb">
+                 
+                <img src="images/illustration.png" alt="Image" class="img-fluid">
+              </a>
+              
+              <h3><a href="#">Driver Posture Estimation</a></h3>
+            </div>
+          </div><div  style="width:50%; " ><ul><li> Driver posture estimation is a technology that uses sensors and cameras to analyze a driver's body position and posture while operating a vehicle.</li>
+
+            <li> By detecting changes in the driver's posture, the system can determine if the driver is fatigued, drowsy, or distracted and alert the driver to take a break or engage in other safe driving behaviors.</li>
+            
+            <li> Driver posture estimation has the potential to improve road safety by reducing accidents caused by driver fatigue and distraction.</li></ul></div>
+        </div>
+        <br><br>
+        <div class="row"><div style="width: 50%;"><ul><li>An autonomous driving assistant is a technology designed to assist drivers in operating autonomous vehicles.</li>
+
+          <li>The system uses various sensors and cameras to detect the environment and analyze the data to make decisions such as steering, braking, and acceleration.</li>
+           
+           <li>The assistant can also provide alerts to the driver in case of potential hazards and take over control of the vehicle in case of emergencies, improving safety on the road.</li></ul></div>
+ 
+          <div class="col-lg-4"  style="width:50%; margin:0 auto;">
+            <div class="post-entry">
+              <a href="#" class="thumb">
+                 
+                <img src="images/protect.png" alt="Image" class="img-fluid">
+              </a>
+            
+              <h3><a href="#">Autonomous Driving Assistant</a></h3>
+            </div>
+          </div>
+          </div>
+          <br><br>
+          <div class="row">
+            <div class="col-lg-4"  style="width:50%; margin:0 auto;">
+              <div class="post-entry">
+                <a href="#" class="thumb">
+                   
+                  <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+                </a>
+                
+                <h3><a href="#">Passenger Monitoring System</a></h3>
+              </div>
+            </div><div style="width: 50%;"><ul><li>A passenger monitoring system is a technology that uses sensors and cameras to monitor the behavior of passengers in a vehicle.</li>
+
+              <li>The system can detect if a passenger is not wearing a seatbelt, behaving in a disruptive manner, or attempting to leave the vehicle while it's in motion.</li>
+               
+               <li>This system can alert the driver or authorities in case of any such behavior, improving the safety and security of the passengers and reducing the risk of accidents caused by passenger behavior.</li></ul></div>
+    
+          </div>
+          <br><br>
+          <div class="row"><div style="width: 50%;"><ul><li>A face recognition system for cars is a technology that uses cameras and machine learning algorithms to detect and recognize the faces of drivers and passengers.</li>
+
+            <li>The system can verify the identity of the driver, and ensure that only authorized individuals are operating the vehicle.</li>
+             
+             <li>This system can also help improve safety by alerting the driver of potential dangers or fatigue, and provide emergency services with the identification of the individuals in the car in case of an accident.</li></ul></div>
+   
+            <div class="col-lg-4"  style="width:50%; margin:0 auto;">
+              <div class="post-entry">
+                <a href="#" class="thumb">
+                   
+                  <img src="images/face recognition.png" alt="Image" class="img-fluid">
+                </a>
+                
+                <h3><a href="#">Face Recognition</a></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-footer" style="background-color: grey;">
+      <div class="container">
+ 
+          <div >
+         
+            <p style="text-align: center;">Driver monitoring is essential for maintaining safe driving practices. It involves using technology to track a driver's behavior and identify any potentially dangerous patterns, such as speeding, aggressive driving, or distracted driving. This information can be used to provide feedback to the driver and improve their driving habits, ultimately reducing the risk of accidents on the road.</p>
+            <div class="my-5" >
+              <h2 class="footer-heading mb-4" style="text-align: center;">Copyright © 2023 The Defaulters</h2>
+              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+      
+      </div>
+    </div>
+
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+
+
+  <script src="js/main.js"></script>
+
+
+</body>
+</html>
